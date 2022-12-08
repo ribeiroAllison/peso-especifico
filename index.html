@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <title>Calculadora de Peso Específico</title>
+    
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="https://multitoc.com.br/wp-content/uploads/2021/08/LOGO-MULTITOC-GRANDE-PRETA-1024x266.png">
+        </div>
+        <div id="titulo">
+            <h1>CALCULADORA DE PESO ESPECÍFICO</h1>
+        </div>
+    </header>
+    <main>
+        
+        <form class="card" id="metals">
+            <h1>Tipo de Metal</h1>
+            <input type="radio" value="cca" name="metais" class="radio">
+            <label for="cca">CCAM</label>
+            <input type="radio" value="ccs" name="metais" class="radio">
+            <label for="ccs">AÇO</label>
+            <input type="radio" value="cu" name="metais" class="radio">
+            <label for="cu">COBRE</label>
+
+        </form>
+
+        <form class="card numbers">
+            <h1>Parâmetros:</h1>
+            <h2>Diâmetro do fio (mm)</h2>
+            <input type="number" id="diameter" placeholder="0.5">
+            
+            <h2>Quantidade de fios</h2>
+            <input type="number" id="wires" placeholder="12">
+
+            <h2>Metragem do Cabo</h2>
+            <input type="number" id="metro" placeholder="100">
+        
+                        
+        </form>
+            
+        <form class="card numbers">
+            <h1>Resultados:</h1><br>
+            <h2>Peso Específico</h2>
+            <input type="number" id="espec" disabled>
+
+            <h2>Peso no Cabo</h2>
+            <input type="number" id="pesoCabo" disabled>
+        </form>
+
+        
+        
+    </main>
+    <div id="buttons">
+        <button id="calculate" onclick="getVariables(); calculaEspec(); pesoRolo(); ">Calcular</button>
+        <button id="erase">Limpar</button>
+    </div>
+    <script src="./density-calculator.js"></script>
+</body>
+</html>
