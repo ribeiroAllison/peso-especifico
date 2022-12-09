@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* GENERAL RULES SECTION */
+
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
+
+input{
+    margin-bottom: 20px;
+    
+}
+
+h1{
+    font-size: 35px;
+}
+
+/* HEADER SECTION */
 
 header{
     display: grid;
@@ -12,10 +26,6 @@ header{
     background-color: crimson;
     
     
-}
-
-input{
-    margin-bottom: 20px;
 }
 
 header img{
@@ -30,13 +40,25 @@ header h1{
     
 }
 
-h1{
-    font-size: 35px;
-}
+
 
 #logo{
     width: 10%;
 }
+
+@media only screen and (max-width: 600px){
+    header img{
+        width: 100px;
+        
+    }
+
+    header h1{
+        font-size: 25px;
+    }
+
+}
+
+/* MAIN SECTION GENERAL RULES */
 
 main{
     margin: 40px 5px;
@@ -49,6 +71,9 @@ main{
 label{
     font-size: 20px;
 }
+
+
+/* CARDS SUB SECTION */
 
 #metals{
     font-size: 25px;
@@ -67,12 +92,11 @@ label{
     padding: 10px;
     height: 350px;
     
-    
-    
 }
 
 .card input{
     margin-top: 10px;
+    font-size: 20px;
 }
 
 
@@ -87,6 +111,43 @@ label{
 .numbers h1{
     margin-bottom: 20px;
 }
+
+.results input{
+    width: 250px;
+    height: 35px;
+
+}
+
+@media only screen and (max-width: 600px){
+    main{
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .card{
+        width: 90%;
+    }
+
+    #metals{
+        height: 150px;
+        
+    }
+
+    #metals h1{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    
+    #metals label {
+        font-size: 25px;
+        
+    }
+
+}
+
+/* BUTTON SECTION */
 
 #buttons{
     margin-top: 80px;
@@ -112,3 +173,4 @@ button{
 button:hover{
     background-color: rgba(220, 20, 60, 0.699);
 }
+

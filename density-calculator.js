@@ -50,7 +50,7 @@ function calculaEspec(){
 
         
     }
-    return document.getElementById('espec').value = pesoEspecifico;
+    return document.getElementById('espec').value = `${pesoEspecifico.toFixed(4)} Kg/Km (um fio)` ;
 }
 
 function limpar(){
@@ -71,7 +71,7 @@ document.getElementById('erase').addEventListener('click', limpar);
 
 const pesoRolo = () => {
     let peso = (pesoEspecifico * qtdFios * metragem)/1000;
-    document.getElementById('pesoCabo').value = Math.floor(peso);
+    document.getElementById('pesoCabo').value = `${peso.toFixed(4)} Kg por rolo`;
 }
 
 
