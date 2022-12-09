@@ -82,5 +82,5 @@ const pesoRolo = () => {
     document.getElementById('pesoCabo').value = `${peso.toFixed(4)} Kg por rolo`;
 }
 
-document.getElementById('calculate').addEventListener('click', getVariables, calculaEspec, pesoRolo);
+
 

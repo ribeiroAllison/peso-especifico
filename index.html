@@ -33,13 +33,13 @@
         <form class="card numbers">
             <h1>Parâmetros:</h1>
             <h2>Diâmetro do fio (mm)</h2>
-            <input type="number" id="diameter" placeholder="Digite a bitola">
+            <input type="number" id="diameter" placeholder="Bitola">
             
             <h2>Quantidade de fios</h2>
-            <input type="number" id="wires" placeholder="Digite o número de fios">
+            <input type="number" id="wires" placeholder="Número de fios">
 
             <h2>Metragem do Cabo</h2>
-            <input type="number" id="metro" placeholder="Digite o comprimento">
+            <input type="number" id="metro" placeholder="Comprimento">
         
                         
         </form>
@@ -59,7 +59,7 @@
     
     <div id="buttons">
         <button id="erase">Limpar</button>
-        <button id="calculate">Calcular</button>
+        <button id="calculate" onclick="getVariables(); calculaEspec(); pesoRolo()">Calcular</button>
     </div>
     
     <script src="./density-calculator.js"></script>
