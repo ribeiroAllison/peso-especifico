@@ -59,6 +59,13 @@ function limpar(){
     document.getElementById('metro').value = '';
     document.getElementById('espec').value = '';
     document.getElementById('pesoCabo').value = '';
+    function clearMetal(){
+        let metalArray = document.getElementsByClassName('radio');
+        for(option of metalArray){
+            option.checked = false;
+        }
+    }
+    clearMetal();
     diametro = 0;
     qtdFios = 0;
     metragem = 0;
