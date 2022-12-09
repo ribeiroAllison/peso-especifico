@@ -76,8 +76,8 @@ _>*Main concepts used:*_
 
 - To write README file
 
-### **Special Thanks**
+#### **Special Thanks** to Gilbert da Silva Alves for reviewing my code. Check out his awesome work here: [GitHub](https://github.com/xGilber)
 
-- To Gilbert da Silva Alves for reviewing my code. Check out his awesome work here: [GitHub](https://github.com/xGilber)
+
 
 ## Here is the deployed finished program, hope you like it!: [Peso Específico](https://ribeiroallison.github.io/peso-especifico/)
