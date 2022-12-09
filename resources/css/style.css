@@ -127,7 +127,7 @@ label{
 
 
 .numbers input{
-    width: 100%;
+    width: 90%;
     height: 30px;
     border-radius: 15px;
     border: 1px solid gray;
@@ -139,7 +139,7 @@ label{
 }
 
 .results input{
-    width: 100%;
+    width: 90%;
     height: 35px;
 
 }
