@@ -57,13 +57,16 @@
             <input type="text" id="pesoCabo" disabled>
         </form>
 
+        <div id="buttons">
+            <button id="erase">Limpar</button>
+            <button id="calculate" onclick="getVariables(); calculaEspec(); pesoRolo(); ">Calcular</button>
+            
+        </div>
+
         
         
     </main>
-    <div id="buttons">
-        <button id="calculate" onclick="getVariables(); calculaEspec(); pesoRolo(); ">Calcular</button>
-        <button id="erase">Limpar</button>
-    </div>
+    
     <script src="./density-calculator.js"></script>
 </body>
 </html>
