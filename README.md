@@ -76,4 +76,4 @@ _>*Main concepts used:*_
 
 - To write README file
 
-## Here is the deployed finished program, hope you like it!: [Peso Específico](**https://ribeiroallison.github.io/peso-especifico/**)
+## Here is the deployed finished program, hope you like it!: [Peso Específico](https://ribeiroallison.github.io/peso-especifico/)
