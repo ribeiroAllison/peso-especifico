@@ -1,10 +1,10 @@
 
 //declare variables
 let metal;
-let diametro;
-let qtdFios;
-let metragem;
-let pesoEspecifico;
+let diametro = 0;
+let qtdFios = 0;
+let metragem = 0;
+let pesoEspecifico = 0;
 
  //declaring constants
 const cuMm2 = 8.90207909993193;
@@ -28,7 +28,6 @@ function getVariables(){
         }
     }
     getMetal();
-
 }
 
 
