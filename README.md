@@ -1,7 +1,7 @@
 # Specific Weight Calculator for Metal Wires
 
 
-![alt screenshot of the program](/path/to/img.jpg "Title")
+![alt screenshot of the program](/resources/img/program.JPG "Program screenshot")
 
 
 ## What is it?
