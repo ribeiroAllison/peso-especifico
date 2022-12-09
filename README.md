@@ -1,5 +1,7 @@
 # Specific Weight Calculator for Metal Wires
 
+![alt screenshot of the program](/resources/img/program.JPG "Screenshot")
+
 ## What is it?
 
 This project is a metal wire density calculator. It will be used by a cable factory to calculate the ammount of metal required to manufacture any given cable.

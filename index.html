@@ -10,12 +10,8 @@
 </head>
 <body>
     <header>
-        <div id="logo">
-            <img src="https://multitoc.com.br/wp-content/uploads/2021/08/LOGO-MULTITOC-GRANDE-PRETA-1024x266.png">
-        </div>
-        <div id="titulo">
-            <h1>CALCULADORA DE PESO ESPECÍFICO</h1>
-        </div>
+        <img src="https://multitoc.com.br/wp-content/uploads/2021/08/LOGO-MULTITOC-GRANDE-PRETA-1024x266.png">
+        <h1>CALCULADORA DE PESO ESPECÍFICO</h1>
     </header>
     <main>
         
@@ -37,13 +33,13 @@
         <form class="card numbers">
             <h1>Parâmetros:</h1>
             <h2>Diâmetro do fio (mm)</h2>
-            <input type="number" id="diameter" placeholder="0.5">
+            <input type="number" id="diameter" placeholder="Digite a bitola">
             
             <h2>Quantidade de fios</h2>
-            <input type="number" id="wires" placeholder="12">
+            <input type="number" id="wires" placeholder="Digite o número de fios">
 
             <h2>Metragem do Cabo</h2>
-            <input type="number" id="metro" placeholder="100">
+            <input type="number" id="metro" placeholder="Digite o comprimento">
         
                         
         </form>
@@ -56,16 +52,15 @@
             <h2>Peso no Cabo</h2>
             <input type="text" id="pesoCabo" disabled>
         </form>
-
-        <div id="buttons">
-            <button id="erase">Limpar</button>
-            <button id="calculate" onclick="getVariables(); calculaEspec(); pesoRolo(); ">Calcular</button>
-            
-        </div>
-
         
         
     </main>
+
+    
+    <div id="buttons">
+        <button id="erase">Limpar</button>
+        <button id="calculate">Calcular</button>
+    </div>
     
     <script src="./density-calculator.js"></script>
 </body>

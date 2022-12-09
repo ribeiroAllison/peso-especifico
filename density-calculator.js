@@ -76,13 +76,11 @@ function limpar(){
 
 document.getElementById('erase').addEventListener('click', limpar);
 
+
 const pesoRolo = () => {
     let peso = (pesoEspecifico * qtdFios * metragem)/1000;
     document.getElementById('pesoCabo').value = `${peso.toFixed(4)} Kg por rolo`;
 }
 
-
-
-
-
+document.getElementById('calculate').addEventListener('click', getVariables, calculaEspec, pesoRolo);
 
