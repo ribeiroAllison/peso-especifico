@@ -27,26 +27,48 @@ This is the flow of information to get the desired outputs:
 
 ```mermaid
 
+  
+
 graph TB
 
+  
+  
 
-A[Type of Metal input] --> B[Metal Diameter Input] -- calculate area -->
+B[Metal Diameter Input] -- calculate area -->
 
-C(Area) -- multiply by--> D(CCAM density)
+  
 
-C -- OR--> E(Cooper Density)
+C((Area)) --multiply by--> A[Type of Metal input] --OR--> D(CCAM density)
 
-C -- OR--> F(Steal Density)
+  
+
+A -- OR--> E(Cooper Density)
+
+  
+
+A -- OR--> F(Steal Density)
+
+  
 
 D --> G{Specific weight output}
 
+  
+
 E --> G
+
+  
 
 F --> G
 
-G --multiply by--> H(wire quantity)
+  
+
+G --multiply by--> H(Wire quantity input)
+
+  
 
 H --> I{Total metal weight output}
+
+  
 
 ```
 
