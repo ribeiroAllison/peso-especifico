@@ -9,12 +9,17 @@
     
 </head>
 <body>
+
+    <!-- HEADER SECTION -->
     <header>
         <img src="https://multitoc.com.br/wp-content/uploads/2021/08/LOGO-MULTITOC-GRANDE-PRETA-1024x266.png">
         <h1>CALCULADORA DE PESO ESPECÍFICO</h1>
     </header>
+
+    <!-- MAIN SECTION -->
     <main>
         
+        <!-- METAL TYPE FORM -->
         <form class="card" id="metals">
             <div>
                 <h1>Tipo de Metal</h1><br>
@@ -30,6 +35,7 @@
 
         </form>
 
+        <!-- PARAMETERS FORM -->
         <form class="card numbers">
             <h1>Parâmetros:</h1>
             <h2>Diâmetro do fio (mm)</h2>
@@ -44,6 +50,8 @@
                         
         </form>
             
+        
+        <!-- RESULTS FORM -->
         <form class="card numbers results">
             <h1>Resultados:</h1><br>
             <h2>Peso Específico</h2>
@@ -56,7 +64,7 @@
         
     </main>
 
-    
+    <!-- BUTTON SECTION -->
     <div id="buttons">
         <button id="erase">Limpar</button>
         <button id="calculate" onclick="getVariables(); calculaEspec(); pesoRolo()">Calcular</button>

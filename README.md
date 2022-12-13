@@ -72,11 +72,11 @@ H --> I{Total metal weight output}
 
 ```
 
-## Tecnologies and concetps used:
+## Tecnologies and concepts used:
 
 ### **JavaScript:**
 
-Used mainly for backend calculations.
+Used mainly for back-end calculations.
 
 >*Main concepts used:*
 
